@@ -27,7 +27,7 @@ const defaultMenu = {
   body: '├ %cmd %islimit %isPremium',
   footer: '└────\n',
   after: `
-*%npmname@^%version*
+*Top global ngesamtir*@^%version*
 ${'```%npmdesc```'}
 `,
 }
@@ -264,7 +264,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       ucapan: global.ucapan,
       p: _p, uptime, muptime,
       me: conn.user.name,
-      npmname: package.name,
+      npmname: Top global ngesamtir,
       npmdesc: package.description,
       version: package.version,
       exp: exp - min,
